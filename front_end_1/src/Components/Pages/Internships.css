@@ -1,0 +1,988 @@
+.Titlebar {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 626px;
+
+    width: 1550px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Titlebar .Title {
+    /* Text */
+  
+    width: 178px;
+    height: 24px;
+  
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+  
+    /* identical to box height, or 75% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+  
+    color: #1E1E1E;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Titlebar .create {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+    width: 217px;
+    height: 44px;
+  
+    /* Purple */
+    background: #793EF5;
+    border-radius: 12px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Titlebar .create .square {
+    /* add-square */
+  
+    width: 20px;
+    height: 20px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Titlebar .create .create_text {
+    /* Create New Internship */
+  
+    width: 177px;
+    height: 20px;
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'liga' off;
+  
+    color: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Body {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-top: 30px;
+
+    width: 1550px;
+    height: 800px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+  
+    width: 1518px;
+    height: 233px;
+  
+    /* Snow */
+    background: #FFFFFF;
+    border-radius: 16px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsTextBox{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  
+    width: 660px;
+    height: 200px;
+  
+    /* Grey Light */
+    background: #F6F5F9;
+    border-radius: 16px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsTextBox .InsightsText {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  
+    width: 660px;
+    height: 156px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsTextBox .InsightsText .InsightsTitle {
+    /* Internship Insights */
+  
+    width: 660px;
+    height: 24px;
+  
+    font-family: 'Poppins';
+  
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+    /* identical to box height, or 120% */
+    font-feature-settings: 'liga' off;
+  
+    /* Gray 1 */
+    color: #333333;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsTextBox .InsightsText .InsightsContent {
+    width: 660px;
+    height: 120px;
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  
+    /* or 143% */
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+  
+    /* Dark */
+    color: #1E1E1E;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    width: 813px;
+    height: 238px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    width: 813px;
+    height: 48px;
+  
+    /* Gray 6 */
+    background: #F2F2F2;
+    border-radius: 12px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 448px;
+    padding-top: 8px;
+    padding-left: 8px;
+  
+    width: 797px;
+    height: 32px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .ThisButtons {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  
+    width: 203px;
+    height: 32px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .ThisButtons .ThisWeekBox {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    width: 91px;
+    height: 32px;
+  
+    /* Purple */
+    background: #793EF5;
+    border-radius: 8px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .ThisButtons .ThisWeekBox .ThisWeekText {
+    width: 67px;
+    height: 20px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    /* identical to box height, or 143% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    /* Snow */
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .ThisButtons .ThisMonthBox {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100px;
+    height: 32px;
+  
+    /* Snow */
+    background: #FFFFFF;
+    border-radius: 8px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .ThisButtons .ThisMonthBox .ThisMonthText {
+    width: 76px;
+    height: 20px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    /* identical to box height, or 143% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    /* Dark */
+    color: #1E1E1E;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .SelectDates {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    width: 137px;
+    height: 32px;
+  
+    /* Snow */
+    background: #FFFFFF;
+    border-radius: 8px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .SelectDates .SelectDatesIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .Insights .InsightsGraph .FilterBar .Filter .SelectDates .SelectDatesText {
+    width: 85px;
+    height: 20px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    /* identical to box height, or 143% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    /* Dark */
+    color: #1E1E1E;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .Insights .InsightsGraph .Funnel {
+    /* Funnel */
+  
+    width: 813px;
+    height: 174px;
+    padding-top: 15px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .InternshipTable {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+    width: 1550px;
+    height: 516px;
+    padding-top: 20px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .IntershipTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    width: 416px;
+    height: 516px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .IntershipTitleHeading {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 416px;
+    height: 56px;
+  
+    background: #F6F5F9;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .IntershipTitleHeadingText {
+    /* Internship Title */
+  
+    width: 102px;
+    height: 24px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+  
+    /* identical to box height, or 171% */
+    font-feature-settings: 'liga' off;
+  
+    /* Text/Text - 01 */
+    color: #2F3031;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .DownArrow {
+    /* arrow-square-down */
+  
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+  
+    opacity: 0.5;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .InternshipListRow {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+  
+    width: 385px;
+    height: 92px;
+  
+    /* Snow */
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .InternshipListRowBox {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  
+    width: 195px;
+    height: 64px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .InternshipName {
+    width: 195px;
+    height: 24px;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* identical to box height, or 150% */
+    font-feature-settings: 'liga' off;
+    
+    /* Text/Text - 01 */
+    color: #2F3031;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .InternshipDescription {
+    width: 195px;
+    height: 32px;
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    /* or 133% */
+    font-feature-settings: 'liga' off;
+    
+    /* Text/Text - 01 */
+    color: #2F3031;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .CompletionPeriod {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    width: 310px;
+    height: 516px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .CompletionPeriodHeading {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 310px;
+    height: 56px;
+  
+    background: #F6F5F9;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .CompletionPeriodHeadingText {
+    width: 124px;
+    height: 24px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    /* identical to box height, or 171% */
+    font-feature-settings: 'liga' off;
+    
+    /* Text/Text - 01 */
+    color: #2F3031;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .CompletionPeriodRow {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    width: 310px;
+    height: 92px;
+  
+    /* Snow */
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .CompletionPeriodRowBox {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 137px;
+    height: 40px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .Period {
+    width: 136px;
+    height: 20px;
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    /* identical to box height, or 125% */
+    font-feature-settings: 'liga' off;
+    
+    /* Gray 1 */
+    color: #333333;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .CreatedOn {
+    width: 137px;
+    height: 16px;
+   
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    
+    /* identical to box height, or 133% */
+    font-feature-settings: 'liga' off;
+    
+    /* Gray 3 */
+    color: #828282;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolled {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 310px;
+    height: 516px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolledHeading {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 310px;
+    height: 56px;
+  
+    background: #F6F5F9;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolledHeadingText {
+    width: 92px;
+    height: 24px;
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    /* identical to box height, or 171% */
+    font-feature-settings: 'liga' off;
+    
+    /* Text/Text - 01 */
+    color: #2F3031;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolledRow {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    width: 310px;
+    height: 92px;
+  
+    /* Snow */
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolledBox {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    width: 94px;
+    height: 40px;
+  
+    background: #F0EFFD;
+    border-radius: 8px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .TotalEnrolledText {
+    width: 62px;
+    height: 24px;
+    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    
+    /* identical to box height, or 133% */
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    
+    /* Purple */
+    color: #793EF5;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .QualifiedCandidates {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    width: 310px;
+    height: 516px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+  
+  .QualifiedCandidatesHeading {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 310px;
+    height: 56px;
+    padding-bottom: 3.2px;
+  
+    background: #F6F5F9;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .QualifiedCandidatesHeadingText {
+    width: 140px;
+    height: 24px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    /* identical to box height, or 171% */
+    font-feature-settings: 'liga' off;
+    
+    /* Text/Text - 01 */
+    color: #2F3031;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .QualifiedCandidatesRow {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    width: 310px;
+    height: 91.4px;
+  
+    /* Snow */
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .SymbolsColumn {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    width: 204px;
+    height: 516px;
+  
+   /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  }
+  
+  .SymbolsHeading {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    width: 204px;
+    height: 56px;
+  
+    background: #F6F5F9;
+    border-radius: 0px 20px 0px 0px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .SymbolsRow {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    width: 204px;
+    height: 92px;
+  
+    /* Snow */
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .SymbolsBox {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  
+  width: 108px;
+  height: 28px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
