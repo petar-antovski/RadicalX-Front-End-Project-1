@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { Form } from './Form';
 import { NewInternshipContext } from '../../../NewInternship.js'
 
@@ -9,9 +9,9 @@ export const Benefits = () => {
     setBenefits(event.target.value);
   };
 
-  const handleBlur = () => {
+  useEffect(() => {
     benefits.trim().length !== 0 ? setBenefitsVisible(true) : setBenefitsVisible(false);
-  }
+  }, [benefits]);
 
   const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
 
@@ -19,7 +19,7 @@ export const Benefits = () => {
     <Form>
       <div className='Benefits'>
         <label>Benefits</label>
-        <textarea name='benefits' value = {benefits} className='BenefitsText' placeholder = 'Description' onChange={handleChange} onBlur = {handleBlur} />
+        <textarea name='benefits' value = {benefits} className='BenefitsText' placeholder = 'Description' onChange={handleChange}/>
       </div>
     </Form>
   )

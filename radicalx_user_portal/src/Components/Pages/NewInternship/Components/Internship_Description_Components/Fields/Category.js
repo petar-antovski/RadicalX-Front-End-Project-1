@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from 'react';
 import { Form } from './Form';
 import { NewInternshipContext } from '../../../NewInternship.js'
-import Select, { components, DropdownIndicatorProps } from 'react-select';
+import Select, { components } from 'react-select';
 import search_normal from '../img/search-normal.png';
 import close from '../img/close.png';
 

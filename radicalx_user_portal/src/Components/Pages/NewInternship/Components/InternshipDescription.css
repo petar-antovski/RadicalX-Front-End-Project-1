@@ -53,7 +53,6 @@ h1 {
 }
 
 label {
-  width: 134px;
   height: 18px;
 
   font-family: 'Space Grotesk';
@@ -137,7 +136,6 @@ label {
   padding: 12px 12px 12px 16px;
   gap: 6px;
 
-  width: 141px;
   height: 46px;
 
   background: rgba(102, 95, 239, 0.2);
@@ -153,7 +151,6 @@ label {
 }
 
 .CategorySelectionText {
-  width: 85px;
   height: 22px;
 
   font-family: 'Space Grotesk';
@@ -219,6 +216,22 @@ label {
   border: 1px solid #CECECE;
   border-radius: 16px;
 
+  /*Text styling*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Text/Text - 02 */
+  color: rgba(47, 48, 49, 0.54);
+
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -258,9 +271,134 @@ label {
   border: 1px solid #CECECE;
   border-radius: 16px;
 
+  /*Text styling*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Text/Text - 02 */
+  color: rgba(47, 48, 49, 0.54);
+
   /* Inside auto layout */
   flex: none;
   order: 1;
   align-self: stretch;
+  flex-grow: 0;
+}
+
+.RecommendedRoles {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: relative;
+  width: 1150px;
+  height: 150px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.RecommendedRolesSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  width: 741px;
+  height: 110px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.RecommendedRolesSearchResults {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 303px;
+  height: 46px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.RecommendedRolesSelection {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 12px 12px 16px;
+  gap: 6px;
+
+  height: 46px;
+
+  background: rgba(102, 95, 239, 0.2);
+
+  /* Purple */
+  border: 1px solid #793EF5;
+  border-radius: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.RecommendedRolesSelectionText {
+  height: 22px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  /* identical to box height, or 147% */
+
+  /* Purple */
+  color: #793EF5;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.RecommendedRolesSelectionX {
+  width: 22px;
+  height: 22px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
   flex-grow: 0;
 }

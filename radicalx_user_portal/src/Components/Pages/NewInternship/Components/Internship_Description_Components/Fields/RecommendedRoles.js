@@ -1,8 +1,9 @@
-import { useState, useContext } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { Form } from './Form';
 import { NewInternshipContext } from '../../../NewInternship.js'
-import Select, { components, DropdownIndicatorProps } from 'react-select';
+import Select, { components } from 'react-select';
 import search_normal from '../img/search-normal.png';
+import close from '../img/close.png';
 
 export const RecommendedRoles = () => {
   // React state to manage selected options
@@ -17,17 +18,22 @@ export const RecommendedRoles = () => {
 
   // Function triggered on selection
   const handleSelect = (data) => {
-    setSelectedOptions(data);
+    if (selectedOptions.length === 0 || !selectedOptions.some((roles) => roles.value === data[0].value)) {
+      setSelectedOptions(selectedOptions.concat(data));
+    }
   };
 
-  const handleTick = () => {
+  useEffect(() => {
     selectedOptions.length > 0 ? setRecommendedRolesVisible(true) : setRecommendedRolesVisible(false);
-    console.log(selectedOptions);
-  };
+  }, [selectedOptions]);
+
+  const removeOption = (data) => {
+    setSelectedOptions(selectedOptions.filter( (roles) => roles.label !== data.target.textContent));
+  }
 
   const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
 
-  const DropdownIndicator = (props: DropdownIndicatorProps) => {
+  const DropdownIndicator = props => {
     return (
       <components.DropdownIndicator {...props}>
         <img src={search_normal} />
@@ -35,29 +41,93 @@ export const RecommendedRoles = () => {
     );
   };
 
+  const IndicatorSeparator  = props => {
+    return (
+      <components.IndicatorSeparator  {...props}>
+        {''}
+      </components.IndicatorSeparator >
+    );
+  };
+
+  const customStyles = {
+    control: (base) => ({
+      ...base,
+      boxSizing: "border-box",
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "flex-start",
+      justifyContent: "flex-start",
+      padding: "5px 5px",
+      gap: "8px",
+
+      width: "1150px",
+      height: "48px",
+
+      background: "#F1F4F8",
+
+      /* Field Stroke */
+      border: "1px solid #CECECE",
+      borderRadius: "16px",
+
+      /* Inside auto layout */
+      flex: "none",
+      order: "0",
+      flexGrow: "0",
+    }),
+    valueContainer: (base) => ({
+      ...base,
+      width: "681px",
+      height: "28px",
+
+      fontFamily: 'Space Grotesk',
+      fontStyle: "normal",
+      fontWeight: "400",
+      fontSize: "16px",
+      lineHeight: "24px",
+
+      /* or 150% */
+      display: "flex",
+      alignItems: "center",
+      letterSpacing: "0.3px",
+      fontFeatureSettings: "'liga' off",
+
+      /* Text/Text - 02 */
+      color: "rgba(47, 48, 49, 0.54)",
+
+
+      /* Inside auto layout */
+      flex: "none",
+      order: "0",
+      flexGrow: "1"
+    })
+  };
+
   return (
     <Form>
       <div className="RecommendedRoles">
-        <label>RecommendedRoles</label>
-        <div className="dropdown-container">
+        <label>Recommended Roles</label>
+        <div className="RecommendedRolesSearch">
           <Select
+            styles={customStyles}
             options={optionList}
-            components={{ DropdownIndicator }}
+            components={{ DropdownIndicator, IndicatorSeparator }}
             placeholder="Search Roles"
-            value={selectedOptions}
+            value="Search Roles"
             onChange={handleSelect}
-            onBlur={handleTick}
             isSearchable={true}
             isClearable={false}
             isMulti
             ValueC
           />
-        </div>
-        <ul>
-          {selectedOptions.map(roles => (
-              <li key={roles.value}>{roles.label}</li>
+          <ul className='RecommendedRolesSearchResults'>
+          {selectedOptions.map(category => (
+              <li className='RecommendedRolesSelection' onClick={removeOption} key={category.value}>
+                <div className='RecommendedRolesSelectionText'>{category.label}</div>
+                <img className='RecommendedRolesSelectionX' src={close}/>
+              </li>
             ))}
         </ul>
+        </div>
       </div>
     </Form>
     );
