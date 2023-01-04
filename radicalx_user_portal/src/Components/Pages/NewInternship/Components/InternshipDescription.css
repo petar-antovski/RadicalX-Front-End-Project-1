@@ -1,0 +1,176 @@
+.NewInternship {  
+  position: relative;
+  width: 1897px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px;
+  background: #F1F4F8;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.InternshipDescription {
+  position: relative;
+  width: 1897px;
+  height: 696px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+  background: #F1F4F8;
+}
+
+h1 {
+  text-align: center;
+  margin: 90px;
+}
+
+.Form {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-top: 15px;
+  gap: 10px;
+
+  position: relative;
+  width: 1197px;
+  height: 635px;
+
+  /* Base/White */
+  border-radius: 20px;
+}
+
+label {
+  width: 134px;
+  height: 18px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+
+  /* identical to box height, or 75% */
+  font-feature-settings: 'liga' off;
+
+  /* Gray 1 */
+  color: #333333;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Category {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: relative;
+  width: 1150px;
+  height: 150px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.css-3w2yfm-ValueContainer {
+  padding-top: 50px;
+}
+
+.Description {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 1150px;
+  height: 240px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.DescriptionText {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  padding: 10px 16px;
+  gap: 8px;
+
+  width: 1150px;
+  height: 197px;
+
+  background: #F1F4F8;
+
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 1150px;
+  height: 240px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.BenefitsText {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  padding: 10px 16px;
+  gap: 8px;
+
+  width: 1150px;
+  height: 197px;
+
+  background: #F1F4F8;
+
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
