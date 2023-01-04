@@ -48,12 +48,66 @@ export const Category = () => {
     );
   };
 
+  const customStyles = {
+    control: (base) => ({
+      ...base,
+      boxSizing: "border-box",
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "flex-start",
+      justifyContent: "flex-start",
+      padding: "5px 5px",
+      gap: "8px",
+
+      width: "1150px",
+      height: "48px",
+
+      background: "#F1F4F8",
+
+      /* Field Stroke */
+      border: "1px solid #CECECE",
+      borderRadius: "16px",
+
+      /* Inside auto layout */
+      flex: "none",
+      order: "0",
+      flexGrow: "0",
+    }),
+    valueContainer: (base) => ({
+      ...base,
+      width: "681px",
+      height: "28px",
+
+      fontFamily: 'Space Grotesk',
+      fontStyle: "normal",
+      fontWeight: "400",
+      fontSize: "16px",
+      lineHeight: "24px",
+
+      /* or 150% */
+      display: "flex",
+      alignItems: "center",
+      letterSpacing: "0.3px",
+      fontFeatureSettings: "'liga' off",
+
+      /* Text/Text - 02 */
+      color: "rgba(47, 48, 49, 0.54)",
+
+
+      /* Inside auto layout */
+      flex: "none",
+      order: "0",
+      flexGrow: "1"
+    })
+  };
+
   return (
     <Form>
       <div className="Category">
         <label>Category</label>
-        <div className="dropdown-container">
+        <div className="CategorySearch">
           <Select
+            styles={customStyles}
             options={optionList}
             components={{ DropdownIndicator, IndicatorSeparator }}
             placeholder="Search Category"
@@ -64,12 +118,15 @@ export const Category = () => {
             isMulti
             ValueC
           />
-        </div>
-        <ul>
+          <ul className='CategorySearchResults'>
           {selectedOptions.map(category => (
-              <li onClick={removeOption} key={category.value}>{category.label}</li>
+              <li className='CategorySelection' onClick={removeOption} key={category.value}>
+                <div className='CategorySelectionText'>{category.label}</div>
+                <img className='CategorySelectionX' src={close}/>
+              </li>
             ))}
         </ul>
+        </div>
       </div>
     </Form>
     );
