@@ -112,7 +112,6 @@ export const Category = () => {
             isSearchable={true}
             isClearable={false}
             isMulti
-            ValueC
           />
           <ul className='CategorySearchResults'>
           {selectedOptions.map(category => (
