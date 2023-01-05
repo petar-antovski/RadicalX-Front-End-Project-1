@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { createContext, useState } from 'react';
 import { InternshipDescription } from './Components/InternshipDescription';
-import { Category } from './Components/Internship_Description_Components/Fields/Category.js';
+import { Category } from './Components/Internship_Description_Components/Fields/Category';
 import { Description } from './Components/Internship_Description_Components/Fields/Description';
 import { Location } from './Components/Internship_Description_Components/Fields/Location';
 import { Benefits } from './Components/Internship_Description_Components/Fields/Benefits';
