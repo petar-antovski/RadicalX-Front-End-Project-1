@@ -239,6 +239,22 @@ label {
   flex-grow: 0;
 }
 
+.Location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 1150px;
+  height: 90px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+ 
 .Benefits {
   display: flex;
   flex-direction: column;
@@ -292,6 +308,316 @@ label {
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+.IntroVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 7px;
+
+  position: absolute;
+  width: 1150px;
+  height: 168px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.IntroVideoDragDrop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 24px 20px;
+  gap: 8px;
+
+  width: 1110px;
+  height: 20px;
+
+  border: 1px dashed #B2B6BC;
+  border-radius: 8px;
+
+  /*Text styles*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+  
+  color: #778188;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.IntroVideoUploadedFiles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  gap: 10px;
+}
+
+.IntroVideoUploadedFile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+
+  background: #EDEAFF;
+  border-radius: 12px;
+
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+  
+  /* Purple */
+  color: #793EF5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.MentorDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  isolation: isolate;
+  
+  position: absolute;
+  width: 1150px;
+  height: 260px;
+  
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.MentorDetailsImage {
+  width: 80px;
+  height: 80px;
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.MentorDetailsImagePhoto {
+  width: 80px;
+  height: 80px;
+
+  /* Gray 50 */
+  background: #E2E6EB;
+  border-radius: 20px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.MentorDetailsImageCorner {
+  /* Inside auto layout */
+  position: absolute;
+  padding-top: 60px;
+  padding-left: 60px;
+  z-index: 1;
+}
+
+.MentorDetailsNameEmail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 0px;
+  gap: 24px;
+  
+  width: 1150px;
+  height: 48px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.MentorDetailsName {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 12px 12px 16px;
+  gap: 10px;
+  
+  width: 500px;
+  height: 48px;
+
+  /* Snow */
+  background: #FFFFFF;
+  
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 12px;
+  
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+  
+  color: #1E1E1E;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.MentorDetailsName:placeholder-shown {
+  background-image: url(./Internship_Description_Components/img/profile.png);
+  background-repeat: no-repeat;
+  background-position: 16px;
+  padding: 12px 12px 12px 50px;
+}
+
+.MentorDetailsEmail {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 12px 12px 16px;
+  gap: 10px;
+  
+  width: 500px;
+  height: 48px;
+  
+  /* Snow */
+  background: #FFFFFF;
+  
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 12px;
+  
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  color: #1E1E1E;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.MentorDetailsEmail:placeholder-shown {
+  background-image: url(./Internship_Description_Components/img/sms.png);
+  background-repeat: no-repeat;
+  background-position: 16px;
+  padding: 12px 12px 12px 50px;
+}
+
+.MentorDetailsLinkedin {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 12px 12px 16px;
+  gap: 10px;
+  
+  width: 1150px;
+  height: 48px;
+  
+  /* Snow */
+  background: #FFFFFF;
+  
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 12px;
+  
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  color: #1E1E1E;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 3;
+}
+
+.MentorDetailsLinkedin:placeholder-shown {
+  background-image: url(./Internship_Description_Components/img/link.png);
+  background-repeat: no-repeat;
+  background-position: 16px;
+  padding: 12px 12px 12px 50px;
 }
 
 .RecommendedRoles {
@@ -396,6 +722,125 @@ label {
   height: 22px;
 
   opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.WebLinksResources {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  position: absolute;
+  width: 1150px;
+  height: 140px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.WebLinksResourcesFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1100px;
+  height: 102px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.WebLinksResourcesInputURL {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+  
+  width: 741px;
+  height: 48px;
+  
+  background: #F1F4F8;
+  
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+  
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Text/Text - 02 */
+  color: rgba(47, 48, 49, 0.54);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.WebLinksResourcesInputURL:placeholder-shown {
+  background-image: url(./Internship_Description_Components/img/weblink.png);
+  background-repeat: no-repeat;
+  background-position: 16px;
+  padding: 12px 12px 12px 50px;
+}
+
+.WebLinksResourcesAddURL {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 6px;
+  
+  height: 38px;
+  
+  /* Snow */
+  background: #FFFFFF;
+  
+  /* Purple */
+  border: 1px dashed #793EF5;
+  border-radius: 12px;
+  
+  /*Text style*/
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  /* identical to box height, or 147% */
+
+  /* Purple */
+  color: #793EF5;
 
   /* Inside auto layout */
   flex: none;

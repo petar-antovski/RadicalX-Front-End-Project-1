@@ -40,14 +40,6 @@ export const Category = () => {
     );
   };
 
-  const IndicatorSeparator  = props => {
-    return (
-      <components.IndicatorSeparator  {...props}>
-        {''}
-      </components.IndicatorSeparator >
-    );
-  };
-
   const customStyles = {
     control: (base) => ({
       ...base,
@@ -98,6 +90,10 @@ export const Category = () => {
       flex: "none",
       order: "0",
       flexGrow: "1"
+    }),
+    indicatorSeparator: (base) => ({
+      ...base,
+      background: "#F1F4F8"
     })
   };
 
@@ -109,14 +105,13 @@ export const Category = () => {
           <Select
             styles={customStyles}
             options={optionList}
-            components={{ DropdownIndicator, IndicatorSeparator }}
+            components={{ DropdownIndicator }}
             placeholder="Search Category"
             value="Search Category"
             onChange={handleSelect}
             isSearchable={true}
             isClearable={false}
             isMulti
-            ValueC
           />
           <ul className='CategorySearchResults'>
           {selectedOptions.map(category => (
@@ -125,7 +120,7 @@ export const Category = () => {
                 <img className='CategorySelectionX' src={close}/>
               </li>
             ))}
-        </ul>
+          </ul>
         </div>
       </div>
     </Form>

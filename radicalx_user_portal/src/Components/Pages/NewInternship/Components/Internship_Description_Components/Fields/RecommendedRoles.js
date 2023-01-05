@@ -41,14 +41,6 @@ export const RecommendedRoles = () => {
     );
   };
 
-  const IndicatorSeparator  = props => {
-    return (
-      <components.IndicatorSeparator  {...props}>
-        {''}
-      </components.IndicatorSeparator >
-    );
-  };
-
   const customStyles = {
     control: (base) => ({
       ...base,
@@ -99,6 +91,10 @@ export const RecommendedRoles = () => {
       flex: "none",
       order: "0",
       flexGrow: "1"
+    }),
+    indicatorSeparator: (base) => ({
+      ...base,
+      background: "#F1F4F8"
     })
   };
 
@@ -110,14 +106,13 @@ export const RecommendedRoles = () => {
           <Select
             styles={customStyles}
             options={optionList}
-            components={{ DropdownIndicator, IndicatorSeparator }}
+            components={{ DropdownIndicator }}
             placeholder="Search Roles"
             value="Search Roles"
             onChange={handleSelect}
             isSearchable={true}
             isClearable={false}
             isMulti
-            ValueC
           />
           <ul className='RecommendedRolesSearchResults'>
           {selectedOptions.map(category => (
@@ -126,7 +121,7 @@ export const RecommendedRoles = () => {
                 <img className='RecommendedRolesSelectionX' src={close}/>
               </li>
             ))}
-        </ul>
+          </ul>
         </div>
       </div>
     </Form>
