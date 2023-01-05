@@ -39,7 +39,7 @@ export const Fields = () => {
           <li className='AddMoreRow' onClick={handleClick}>
             <div className='AddMoreRowBox'>
               <img className='AddMoreRowIcon' src = {AddMoreIcon} alt='Add More Icon' />
-              <div className='AddMoreRowtext'>Add more</div>
+              <div className='AddMoreRowtext'>Add More</div>
             </div>
           </li>
         </Link>
