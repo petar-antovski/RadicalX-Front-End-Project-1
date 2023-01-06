@@ -30,7 +30,7 @@ export const Category = () => {
     setSelectedOptions(selectedOptions.filter( (category) => category.label !== data.target.textContent));
   }
 
-  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
+  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible, OverviewVisible, setOverviewVisible, ScheduleVisible, setScheduleVisible, ResourcesVisible, setResourcesVisible, Survey1Visible, setSurvey1Visible, Survey2Visible, setSurvey2Visible, BasicSettingsVisible, setBasicSettingsVisible, HeroImageVisible, setHeroImageVisible} = useContext(NewInternshipContext)
 
   const DropdownIndicator = props => {
     return (
@@ -51,7 +51,7 @@ export const Category = () => {
       padding: "5px 5px",
       gap: "8px",
 
-      width: "1150px",
+      width: "1012px",
       height: "48px",
 
       background: "#F1F4F8",
@@ -120,7 +120,7 @@ export const Category = () => {
                 <img className='CategorySelectionX' src={close}/>
               </li>
             ))}
-        </ul>
+          </ul>
         </div>
       </div>
     </Form>

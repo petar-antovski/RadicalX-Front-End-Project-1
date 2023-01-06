@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import BackIcon from './img/BackIcon.png';
-import NextIcon from './img/NextIcon.png';
+
 import './TopNavBar.css';
 
 export const TopNavBar = (props) => {
@@ -14,21 +14,21 @@ export const TopNavBar = (props) => {
 
   return (
     <div className='TopNavBar'>
-      <div className='Back'>
-        <Link style={{textDecoration: 'none', outline: 'none'}} className='BackBox' to={`/${props.backlink}`}  onClick = {removeElementOnBack}>
-          <img className='BackIcon' src = {BackIcon} alt="BackIcon" />
-          <div className='BackText'>Back</div>
+      <div className='TopNavBarBack'>
+        <Link style={{textDecoration: 'none', outline: 'none'}} className='TopNavBarBackBox' to={`/${props.backlink}`}  onClick = {removeElementOnBack}>
+          <img className='TopNavBarBackIcon' src = {BackIcon} alt="BackIcon" />
+          <div className='TopNavBarBackText'>Back</div>
         </Link>
       </div>
-      <div className='Title'>
-        <div className='TitleBox'>
-          <div className='TitleText'>Add New Internship</div>
+      <div className='TopNavBarTitle'>
+        <div className='TopNavBarTitleBox'>
+          <div className='TopNavBarTitleText'>Add New Internship</div>
         </div>
       </div>
-      <div className='Next'>
-        <Link style={{textDecoration: 'none', outline: 'none'}} className='NextBox' to={`/${props.nextlink}`}  onClick = {removeElementOnFinish}>
-          <div className='NextText'>{props.backlink === "NewInternship/Surveys" ? "Publish Internship" : "Continue to Next Step"}</div>
-          <img className='NextIcon' src = {NextIcon} alt="NextIcon" />
+      <div className='TopNavBarNext'>
+        <Link style={{textDecoration: 'none', outline: 'none'}} className={props.NextBox} to={`/${props.nextlink}`}  onClick = {removeElementOnFinish}>
+          <div className={props.NextText}>{props.backlink === "NewInternship/Surveys" ? "Publish Internship" : "Continue to Next Step"}</div>
+          <img className='TopNavBarNextIcon' src = {props.NextIcon} alt="NextIcon" />
         </Link>
       </div>
     </div>

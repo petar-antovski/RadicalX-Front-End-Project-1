@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:normal,bold');
+
 .NewInternship {  
   position: relative;
   width: 1897px;
@@ -8,6 +10,11 @@
   padding: 0px;
   margin: 0px;
   background: #F1F4F8;
+}
+
+* {
+  font-family: 'Space Grotesk';
+  font-style: normal;
 }
 
 body {
@@ -45,7 +52,7 @@ h1 {
   gap: 10px;
 
   position: relative;
-  width: 1197px;
+  width: 1060px;
   height: 635px;
 
   /* Base/White */
@@ -55,8 +62,7 @@ h1 {
 label {
   height: 18px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 24px;
   line-height: 18px;
@@ -83,7 +89,7 @@ label {
   gap: 24px;
 
   position: relative;
-  width: 1150px;
+  width: 1012px;
   height: 150px;
 
   /* Base/White */
@@ -98,7 +104,7 @@ label {
   padding: 0px;
   gap: 5px;
 
-  width: 741px;
+  width: 1012px;
   height: 110px;
 
 
@@ -153,8 +159,7 @@ label {
 .CategorySelectionText {
   height: 22px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -192,7 +197,7 @@ label {
   gap: 24px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 240px;
 
   /* Base/White */
@@ -207,7 +212,7 @@ label {
   padding: 10px 16px;
   gap: 8px;
 
-  width: 1150px;
+  width: 1012px;
   height: 197px;
 
   background: #F1F4F8;
@@ -217,8 +222,7 @@ label {
   border-radius: 16px;
 
   /*Text styling*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
