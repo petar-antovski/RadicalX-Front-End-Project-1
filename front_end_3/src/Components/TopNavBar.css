@@ -14,7 +14,7 @@
     filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.04));
 }
 
-.Back {
+.TopNavBarBack {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
     flex-grow: 0;
 }
 
-.BackBox {
+.TopNavBarBackBox {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@
     flex-grow: 0;
 }
 
-.BackIcon {
+.TopNavBarBackIcon {
     width: 28px;
     height: 28px;
     
@@ -65,14 +65,12 @@
     flex-grow: 0;
 }
 
-.BackText {
+.TopNavBarBackText {
 
     width: 44px;
     height: 24px;
     
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
+      font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     
@@ -91,7 +89,7 @@
     flex-grow: 0;
 }
 
-.Title {
+.TopNavBarTitle {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -110,12 +108,9 @@
     flex-grow: 1;
 }
 
-.TitleText {
-    width: 268px;
+.TopNavBarTitleText {
     height: 24px;
     
-    font-family: 'Space Grotesk';
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
@@ -135,7 +130,7 @@
     flex-grow: 0;
 }
 
-.Next {
+.TopNavBarNext {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -156,7 +151,7 @@
     flex-grow: 0;
 }
 
-.NextBoxInnactive {
+.TopNavBarNextBoxInnactive {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -175,7 +170,7 @@
     flex-grow: 0;
 }
 
-.NextBoxActive {
+.TopNavBarNextBoxActive {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -193,12 +188,10 @@
     flex-grow: 0;
 }
 
-.NextText {
+.TopNavBarNextText {
     height: 20px;
     
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
+      font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     
@@ -217,12 +210,10 @@
     flex-grow: 0;
 }
 
-.NextTextActive {
+.TopNavBarNextTextActive {
     height: 20px;
 
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
+      font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     
@@ -240,7 +231,7 @@
     flex-grow: 0;
 }
 
-.NextIcon {
+.TopNavBarNextIcon {
     width: 20px;
     height: 20px;
     
