@@ -1,0 +1,235 @@
+.NewInternship {  
+  position: relative;
+  width: 1897px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 23px;
+  background: #F1F4F8;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.InternshipGuide {
+  position: relative;
+  width: 1897px;
+  height: 696px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+  background: #F1F4F8;
+}
+
+h1 {
+  text-align: center;
+  margin: 90px;
+}
+
+.Form {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-top: 15px;
+  gap: 10px;
+
+  position: relative;
+  width: 1060px;
+  height: 635px;
+
+  /* Base/White */
+  border-radius: 20px;
+}
+
+label {
+  height: 18px;
+
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+
+  /* identical to box height, or 75% */
+  font-feature-settings: 'liga' off;
+
+  /* Gray 1 */
+  color: #333333;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 12px;
+  
+  position: absolute;
+  width: 1012px;
+  height: 670px;
+  
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.InternshipGuideSubfieldFormInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  width: 1012px;
+  height: 222px;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldFormInputsText {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 16px;
+  margin-top: 16px;
+  gap: 8px;
+  
+  width: 1012px;
+  height: 48px;
+  
+  background: #F1F4F8;
+  
+  /* Field Stroke */
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+  
+  /*Text style*/
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Text/Text - 02 */
+  color: rgba(47, 48, 49, 0.54);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldFormDragDrop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  margin-top: 16px;
+  gap: 8px;
+  
+  width: 970px;
+  height: 10px;
+  
+  border: 1px dashed #B2B6BC;
+  border-radius: 12px;
+  
+  /*Text style*/
+  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-feature-settings: 'liga' off;
+
+  color: #778188;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldFormUploadedFiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+    
+  background: #EDEAFF;
+  border-radius: 12px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldFormUploadedFile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 24px;
+  
+  background: #EDEAFF;
+  border-radius: 12px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubfieldFormUploadedFileText {
+  
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+  
+  /* Purple */
+  color: #793EF5;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

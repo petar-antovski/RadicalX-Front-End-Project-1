@@ -1,0 +1,383 @@
+.InternshipGuideFields {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 14px;
+
+  position: relative;
+  width: 790px;
+}
+
+.InternshipGuideFieldsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 790px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.InternshipGuideFieldsicon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0px;
+  gap: 10px;
+  
+  width: 24px;
+  height: 44px;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsRowInnactive {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 28px;
+
+  width: 742px;
+  height: 64px;
+
+  /* White */
+  background: #FFFFFF;
+
+  /* Gray 50 */
+  border: 1px solid #E2E6EB;
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsRowActive {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 28px;
+
+  width: 742px;
+
+  /* White */
+  background: #FFFFFF;
+
+  /* Purple */
+  border: 1px solid #793EF5;
+
+  /* Card Selected */
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsRowHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  
+  width: 690px;
+  height: 24px;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsRowHeadingtext {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  height: 18px;
+
+  
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+
+  /* identical to box height, or 100% */
+  font-feature-settings: 'liga' off;
+
+  /* Gray 1 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuidetick-circle {
+  width: 24px;
+  height: 24px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuidearrow-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 745px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsSubRows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 690px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsSubRow {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  
+  width: 690px;
+  height: 56px;
+  
+  /* White */
+  background: #FFFFFF;
+  
+  /* Gray 5 */
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubFieldsicon {
+  width: 20px;
+  height: 20px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsSubRowtextbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  
+  height: 24px;
+  
+  /*Text style*/
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+
+  /* Gray 1 */
+  color: #333333;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsSubAddMoreRow {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 4px;
+  
+  width: 690px;
+  height: 56px;
+  
+  /* Snow */
+  background: #FFFFFF;
+  
+  /* Purple */
+  border: 1px dashed #793EF5;
+  border-radius: 12px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.InternshipGuideSubAddMoreicon {
+  width: 20px;
+  height: 20px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideFieldsSubRowAddMoretextbox {
+  width: 74px;
+  height: 24px;
+  
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  /* identical to box height, or 150% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  
+  /* Purple */
+  color: #793EF5;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.InternshipGuideAddChapterRow {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 740px;
+  height: 56px;
+
+  background: rgba(102, 95, 239, 0.2);
+
+  /* Purple */
+  border: 1px solid #793EF5;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 8;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.InternshipGuideAddChapterRowBox {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 106px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideAddChapterRowIcon {
+  width: 20px;
+  height: 20px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InternshipGuideAddChapterRowtext {
+  height: 24px;
+  
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  /* identical to box height, or 150% */
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  
+  /* Purple */
+  color: #793EF5;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
