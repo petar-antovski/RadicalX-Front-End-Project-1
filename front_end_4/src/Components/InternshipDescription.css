@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:normal,bold');
+
 .NewInternship {  
   position: relative;
   width: 1897px;
@@ -8,6 +10,11 @@
   padding: 0px;
   margin: 0px;
   background: #F1F4F8;
+}
+
+* {
+  font-family: 'Space Grotesk';
+  font-style: normal;
 }
 
 body {
