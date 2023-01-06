@@ -8,7 +8,7 @@ import { NewInternshipContext } from '../../NewInternship.js'
 
 export const Fields = () => {
   const [activeIndex, setactiveIndex] = useState(null);
-  const handleClick = (index) => setactiveIndex({ index });  
+  const handleClick = (index) => setactiveIndex(index);  
   const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
   const clickables = [
   { name: "Category", link: "NewInternship/InternshipDescription/Category", tick: CategoryVisible },
