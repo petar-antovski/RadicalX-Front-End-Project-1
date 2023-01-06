@@ -45,7 +45,7 @@
     /* Auto layout */
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
   
     width: 217px;
@@ -176,9 +176,7 @@
   
     width: 660px;
     height: 24px;
-  
-    font-family: 'Poppins';
-  
+    
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -379,6 +377,7 @@
   
     width: 137px;
     height: 32px;
+    gap: 10px;
   
     /* Snow */
     background: #FFFFFF;
@@ -396,7 +395,6 @@
   }
   
   .Insights .InsightsGraph .FilterBar .Filter .SelectDates .SelectDatesText {
-    width: 85px;
     height: 20px;
     
     font-weight: 500;
@@ -445,7 +443,7 @@
     flex-grow: 0;
   }
   
-  .IntershipTitle {
+  .InternshipTableIntershipTitle {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -460,7 +458,7 @@
     flex-grow: 1;
   }
   
-  .IntershipTitleHeading {
+  .InternshipTableIntershipTitleHeading {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -479,7 +477,7 @@
     flex-grow: 0;
   }
   
-  .IntershipTitleHeadingText {
+  .InternshipTableIntershipTitleHeadingText {
     /* Internship Title */
   
     width: 102px;
@@ -502,7 +500,7 @@
     flex-grow: 0;
   }
   
-  .DownArrow {
+  .InternshipTableDownArrow {
     /* arrow-square-down */
   
     width: 20px;
@@ -517,7 +515,7 @@
     flex-grow: 0;
   }
   
-  .InternshipListRow {
+  .InternshipTableInternshipListRow {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -537,7 +535,7 @@
     flex-grow: 0;
   }
   
-  .InternshipListRowBox {
+  .InternshipTableInternshipListRowBox {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -553,7 +551,7 @@
     flex-grow: 0;
   }
   
-  .InternshipName {
+  .InternshipTableInternshipName {
     width: 195px;
     height: 24px;
     
@@ -574,7 +572,7 @@
     flex-grow: 0;
   }
   
-  .InternshipDescription {
+  .InternshipTableInternshipDescription {
     width: 195px;
     height: 32px;
     
@@ -595,7 +593,7 @@
     flex-grow: 0;
   }
   
-  .CompletionPeriod {
+  .InternshipTableCompletionPeriod {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -611,7 +609,7 @@
     flex-grow: 0;
   }
   
-  .CompletionPeriodHeading {
+  .InternshipTableCompletionPeriodHeading {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -630,7 +628,7 @@
     flex-grow: 0;
   }
   
-  .CompletionPeriodHeadingText {
+  .InternshipTableCompletionPeriodHeadingText {
     width: 124px;
     height: 24px;
     
@@ -650,7 +648,7 @@
     flex-grow: 0;
   }
   
-  .CompletionPeriodRow {
+  .InternshipTableCompletionPeriodRow {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -669,7 +667,7 @@
     flex-grow: 0;
   }
   
-  .CompletionPeriodRowBox {
+  .InternshipTableCompletionPeriodRowBox {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -684,7 +682,7 @@
     flex-grow: 0;
   }
   
-  .Period {
+  .InternshipTablePeriod {
     width: 136px;
     height: 20px;
    
@@ -704,7 +702,7 @@
     flex-grow: 0;
   }
   
-  .CreatedOn {
+  .InternshipTableCreatedOn {
     width: 137px;
     height: 16px;
    
@@ -724,7 +722,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolled {
+  .InternshipTableTotalEnrolled {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -739,7 +737,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolledHeading {
+  .InternshipTableTotalEnrolledHeading {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -758,7 +756,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolledHeadingText {
+  .InternshipTableTotalEnrolledHeadingText {
     width: 92px;
     height: 24px;
    
@@ -778,7 +776,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolledRow {
+  .InternshipTableTotalEnrolledRow {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -798,7 +796,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolledBox {
+  .InternshipTableTotalEnrolledBox {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -817,7 +815,7 @@
     flex-grow: 0;
   }
   
-  .TotalEnrolledText {
+  .InternshipTableTotalEnrolledText {
     width: 62px;
     height: 24px;
     
@@ -839,7 +837,7 @@
     flex-grow: 0;
   }
   
-  .QualifiedCandidates {
+  .InternshipTableQualifiedCandidates {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -855,7 +853,7 @@
     flex-grow: 0;
   }
   
-  .QualifiedCandidatesHeading {
+  .InternshipTableQualifiedCandidatesHeading {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -875,7 +873,7 @@
     flex-grow: 0;
   }
   
-  .QualifiedCandidatesHeadingText {
+  .InternshipTableQualifiedCandidatesHeadingText {
     width: 140px;
     height: 24px;
   
@@ -895,7 +893,7 @@
     flex-grow: 0;
   }
   
-  .QualifiedCandidatesRow {
+  .InternshipTableQualifiedCandidatesRow {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -915,7 +913,7 @@
     flex-grow: 0;
   }
   
-  .SymbolsColumn {
+  .InternshipTableSymbolsColumn {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -931,7 +929,7 @@
     flex-grow: 0;
   }
   
-  .SymbolsHeading {
+  .InternshipTableSymbolsHeading {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -950,7 +948,7 @@
     flex-grow: 0;
   }
   
-  .SymbolsRow {
+  .InternshipTableSymbolsRow {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -970,7 +968,7 @@
     flex-grow: 0;
   }
   
-  .SymbolsBox {
+  .InternshipTableSymbolsBox {
   /* Auto layout */
   display: flex;
   flex-direction: row;

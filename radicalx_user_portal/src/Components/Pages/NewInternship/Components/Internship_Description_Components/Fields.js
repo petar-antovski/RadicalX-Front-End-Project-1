@@ -8,8 +8,8 @@ import { NewInternshipContext } from '../../NewInternship.js'
 
 export const Fields = () => {
   const [activeIndex, setactiveIndex] = useState(null);
-  const handleClick = (index) => setactiveIndex({ index });  
-  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
+  const handleClick = (index) => setactiveIndex(index);  
+  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible, OverviewVisible, setOverviewVisible, ScheduleVisible, setScheduleVisible, ResourcesVisible, setResourcesVisible, Survey1Visible, setSurvey1Visible, Survey2Visible, setSurvey2Visible, BasicSettingsVisible, setBasicSettingsVisible, HeroImageVisible, setHeroImageVisible} = useContext(NewInternshipContext)
   const clickables = [
   { name: "Category", link: "NewInternship/InternshipDescription/Category", tick: CategoryVisible },
   { name: "Description", link: "NewInternship/InternshipDescription/Description", tick: DescriptionVisible },
@@ -21,8 +21,8 @@ export const Fields = () => {
   { name: "Web Links & Resources", link: "NewInternship/InternshipDescription/WebLinksResources", tick: WebLinksResourcesVisible }
   ];
   return (
-    <div className="Fields">
-      <ul className="Fields">
+    <div className='InternshipDescriptionFields'>
+      <ul className='InternshipDescriptionFields'>
         { clickables.map((clickable, i) => {
             return <FieldsLinks 
             key={ clickable.name }
@@ -35,11 +35,11 @@ export const Fields = () => {
             />
         })
         }
-        <Link style={{textDecoration: 'none', outline: 'none'}} to={'AddMore'}>
-          <li className='AddMoreRow' onClick={handleClick}>
-            <div className='AddMoreRowBox'>
-              <img className='AddMoreRowIcon' src = {AddMoreIcon} alt='Add More Icon' />
-              <div className='AddMoreRowtext'>Add more</div>
+        <Link style={{textDecoration: 'none', outline: 'none'}} to={'/NewInternship/InternshipDescription/AddMore'}>
+          <li className='InternshipDescriptionAddMoreRow' onClick={handleClick}>
+            <div className='InternshipDescriptionAddMoreRowBox'>
+              <img className='InternshipDescriptionAddMoreRowIcon' src = {AddMoreIcon} alt='Add More Icon' />
+              <div className='InternshipDescriptionAddMoreRowtext'>Add More</div>
             </div>
           </li>
         </Link>

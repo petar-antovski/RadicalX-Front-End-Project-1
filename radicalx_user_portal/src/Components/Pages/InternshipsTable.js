@@ -9,165 +9,165 @@ import More from '../img/more-2.png';
 const InternshipsTable = () => {
   return (
     <div className='InternshipTable'>
-        <div className='IntershipTitle'>
-            <div className='IntershipTitleHeading'>
-                <div className='IntershipTitleHeadingText'>Internship Title</div>
-                <div className='DownArrow'><img src={DownArrow} alt="DownArrow" /></div>
+        <div className='InternshipTableIntershipTitle'>
+            <div className='InternshipTableIntershipTitleHeading'>
+                <div className='InternshipTableIntershipTitleHeadingText'>Internship Title</div>
+                <div className='InternshipTableDownArrow'><img src={DownArrow} alt="DownArrow" /></div>
             </div>
-            <div className='InternshipListRow'>
-                <div className='InternshipListRowBox'>
-                <div className='InternshipName'>Product Design GVI</div>
-                <div className='InternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
+            <div className='InternshipTableInternshipListRow'>
+                <div className='InternshipTableInternshipListRowBox'>
+                    <div className='InternshipTableInternshipName'>Product Design GVI</div>
+                    <div className='InternshipTableInternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
                 </div>
             </div>
-            <div className='InternshipListRow'>
-                <div className='InternshipListRowBox'>
-                <div className='InternshipName'>Product Design GVI</div>
-                <div className='InternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
+            <div className='InternshipTableInternshipListRow'>
+                <div className='InternshipTableInternshipListRowBox'>
+                    <div className='InternshipTableInternshipName'>Product Design GVI</div>
+                    <div className='InternshipTableInternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
                 </div>
             </div>
-            <div className='InternshipListRow'>
-                <div className='InternshipListRowBox'>
-                <div className='InternshipName'>Product Design GVI</div>
-                <div className='InternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
+            <div className='InternshipTableInternshipListRow'>
+                <div className='InternshipTableInternshipListRowBox'>
+                    <div className='InternshipTableInternshipName'>Product Design GVI</div>
+                    <div className='InternshipTableInternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
                 </div>
             </div>
-            <div className='InternshipListRow'>
-                <div className='InternshipListRowBox'>
-                <div className='InternshipName'>Product Design GVI</div>
-                <div className='InternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
+            <div className='InternshipTableInternshipListRow'>
+                <div className='InternshipTableInternshipListRowBox'>
+                    <div className='InternshipTableInternshipName'>Product Design GVI</div>
+                    <div className='InternshipTableInternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
                 </div>
             </div>
-            <div className='InternshipListRow'>
-                <div className='InternshipListRowBox'>
-                <div className='InternshipName'>Product Design GVI</div>
-                <div className='InternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
-                </div>
-            </div>
-        </div>
-        <div className='CompletionPeriod'>
-            <div className='CompletionPeriodHeading'>
-                <div className='CompletionPeriodHeadingText'>Completion Period</div>
-                <div className='DownArrow'><img src={DownArrow} alt="DownArrow" /></div>
-            </div>
-            <div className='CompletionPeriodRow'>
-                <div className='CompletionPeriodRowBox'>
-                <div className='Period'>120 days</div>
-                <div className='CreatedOn'>(created on 10/12/2021)</div>
-                </div>  
-            </div>
-            <div className='CompletionPeriodRow'>
-                <div className='CompletionPeriodRowBox'>
-                <div className='Period'>120 days</div>
-                <div className='CreatedOn'>(created on 10/12/2021)</div>
-                </div>  
-            </div>
-            <div className='CompletionPeriodRow'>
-                <div className='CompletionPeriodRowBox'>
-                <div className='Period'>120 days</div>
-                <div className='CreatedOn'>(created on 10/12/2021)</div>
-                </div>  
-            </div>
-            <div className='CompletionPeriodRow'>
-                <div className='CompletionPeriodRowBox'>
-                <div className='Period'>120 days</div>
-                <div className='CreatedOn'>(created on 10/12/2021)</div>
-                </div>  
-            </div>
-            <div className='CompletionPeriodRow'>
-                <div className='CompletionPeriodRowBox'>
-                <div className='Period'>120 days</div>
-                <div className='CreatedOn'>(created on 10/12/2021)</div>
-                </div>  
-            </div>
-        </div>
-        <div className='TotalEnrolled'>
-            <div className='TotalEnrolledHeading'>
-                <div className='TotalEnrolledHeadingText'>Total Enrolled</div>
-                <div className='DownArrow'><img src={DownArrow} alt="DownArrow" /></div>
-            </div>
-            <div className='TotalEnrolledRow'>
-                <div className='TotalEnrolledBox'>
-                <div className='TotalEnrolledText'>20,000</div>
-                </div>
-            </div>
-            <div className='TotalEnrolledRow'>
-                <div className='TotalEnrolledBox'>
-                <div className='TotalEnrolledText'>20,000</div>
-                </div>
-            </div>
-            <div className='TotalEnrolledRow'>
-                <div className='TotalEnrolledBox'>
-                <div className='TotalEnrolledText'>20,000</div>
-                </div>
-            </div>
-            <div className='TotalEnrolledRow'>
-                <div className='TotalEnrolledBox'>
-                <div className='TotalEnrolledText'>20,000</div>
-                </div>
-            </div>
-            <div className='TotalEnrolledRow'>
-                <div className='TotalEnrolledBox'>
-                <div className='TotalEnrolledText'>20,000</div>
+            <div className='InternshipTableInternshipListRow'>
+                <div className='InternshipTableInternshipListRowBox'>
+                    <div className='InternshipTableInternshipName'>Product Design GVI</div>
+                    <div className='InternshipTableInternshipDescription'>Amet minim mollit non deserunt est sit aliqua dolor do amet sint.</div>
                 </div>
             </div>
         </div>
-        <div className='QualifiedCandidates'>
-            <div className='QualifiedCandidatesHeading'>
-                <div className='QualifiedCandidatesHeadingText'>Qualified Candidates</div>
-                <div className='DownArrow'><img src={DownArrow} alt="DownArrow" /></div>
+        <div className='InternshipTableCompletionPeriod'>
+            <div className='InternshipTableCompletionPeriodHeading'>
+                <div className='InternshipTableCompletionPeriodHeadingText'>Completion Period</div>
+                <div className='InternshipTableDownArrow'><img src={DownArrow} alt="DownArrow" /></div>
             </div>
-            <div className='QualifiedCandidatesRow'>
+            <div className='InternshipTableCompletionPeriodRow'>
+                <div className='InternshipTableCompletionPeriodRowBox'>
+                    <div className='InternshipTablePeriod'>120 days</div>
+                    <div className='InternshipTableCreatedOn'>(created on 10/12/2021)</div>
+                </div>  
+            </div>
+            <div className='InternshipTableCompletionPeriodRow'>
+                <div className='InternshipTableCompletionPeriodRowBox'>
+                    <div className='InternshipTablePeriod'>120 days</div>
+                    <div className='InternshipTableCreatedOn'>(created on 10/12/2021)</div>
+                </div>  
+            </div>
+            <div className='InternshipTableCompletionPeriodRow'>
+                <div className='InternshipTableCompletionPeriodRowBox'>
+                    <div className='InternshipTablePeriod'>120 days</div>
+                    <div className='InternshipTableCreatedOn'>(created on 10/12/2021)</div>
+                </div>  
+            </div>
+            <div className='InternshipTableCompletionPeriodRow'>
+                <div className='InternshipTableCompletionPeriodRowBox'>
+                    <div className='InternshipTablePeriod'>120 days</div>
+                    <div className='InternshipTableCreatedOn'>(created on 10/12/2021)</div>
+                </div>  
+            </div>
+            <div className='InternshipTableCompletionPeriodRow'>
+                <div className='InternshipTableCompletionPeriodRowBox'>
+                    <div className='InternshipTablePeriod'>120 days</div>
+                    <div className='InternshipTableCreatedOn'>(created on 10/12/2021)</div>
+                </div>  
+            </div>
+        </div>
+        <div className='InternshipTableTotalEnrolled'>
+            <div className='InternshipTableTotalEnrolledHeading'>
+                <div className='InternshipTableTotalEnrolledHeadingText'>Total Enrolled</div>
+                <div className='InternshipTableDownArrow'><img src={DownArrow} alt="DownArrow" /></div>
+            </div>
+            <div className='InternshipTableTotalEnrolledRow'>
+                <div className='InternshipTableTotalEnrolledBox'>
+                    <div className='InternshipTableTotalEnrolledText'>20,000</div>
+                </div>
+            </div>
+            <div className='InternshipTableTotalEnrolledRow'>
+                <div className='InternshipTableTotalEnrolledBox'>
+                    <div className='InternshipTableTotalEnrolledText'>20,000</div>
+                </div>
+            </div>
+            <div className='InternshipTableTotalEnrolledRow'>
+                <div className='InternshipTableTotalEnrolledBox'>
+                    <div className='InternshipTableTotalEnrolledText'>20,000</div>
+                </div>
+            </div>
+            <div className='InternshipTableTotalEnrolledRow'>
+                <div className='InternshipTableTotalEnrolledBox'>
+                    <div className='InternshipTableTotalEnrolledText'>20,000</div>
+                </div>
+            </div>
+            <div className='InternshipTableTotalEnrolledRow'>
+                <div className='InternshipTableTotalEnrolledBox'>
+                    <div className='InternshipTableTotalEnrolledText'>20,000</div>
+                </div>
+            </div>
+        </div>
+        <div className='InternshipTableQualifiedCandidates'>
+            <div className='InternshipTableQualifiedCandidatesHeading'>
+                <div className='InternshipTableQualifiedCandidatesHeadingText'>Qualified Candidates</div>
+                <div className='InternshipTableDownArrow'><img src={DownArrow} alt="DownArrow" /></div>
+            </div>
+            <div className='InternshipTableQualifiedCandidatesRow'>
                 <img src={Graph} alt="Graph" />
             </div>
-            <div className='QualifiedCandidatesRow'>
+            <div className='InternshipTableQualifiedCandidatesRow'>
                 <img src={Graph} alt="Graph" />
             </div>
-            <div className='QualifiedCandidatesRow'>
+            <div className='InternshipTableQualifiedCandidatesRow'>
                 <img src={Graph} alt="Graph" />
             </div>
-            <div className='QualifiedCandidatesRow'>
+            <div className='InternshipTableQualifiedCandidatesRow'>
                 <img src={Graph} alt="Graph" />
             </div>
-            <div className='QualifiedCandidatesRow'>
+            <div className='InternshipTableQualifiedCandidatesRow'>
                 <img src={Graph} alt="Graph" />
             </div>
         </div>
-        <div className='SymbolsColumn'>
-            <div className='SymbolsHeading'></div>
-            <div className='SymbolsRow'>
-                <div className='SymbolsBox'>
-                <div className='Symbol'><img src={Chart} alt="Chart" /></div>
-                <div className='Symbol'><img src={Profile} alt="Profile" /></div>
-                <div className='Symbol'><img src={More} alt="More" /></div>
+        <div className='InternshipTableSymbolsColumn'>
+            <div className='InternshipTableSymbolsHeading'></div>
+            <div className='InternshipTableSymbolsRow'>
+                <div className='InternshipTableSymbolsBox'>
+                    <div className='InternshipTableSymbol'><img src={Chart} alt="Chart" /></div>
+                    <div className='InternshipTableSymbol'><img src={Profile} alt="Profile" /></div>
+                    <div className='InternshipTableSymbol'><img src={More} alt="More" /></div>
                 </div>
             </div>
-            <div className='SymbolsRow'>
-                <div className='SymbolsBox'>
-                <div className='Symbol'><img src={Chart} alt="Chart" /></div>
-                <div className='Symbol'><img src={Profile} alt="Profile" /></div>
-                <div className='Symbol'><img src={More} alt="More" /></div>
+            <div className='InternshipTableSymbolsRow'>
+                <div className='InternshipTableSymbolsBox'>
+                    <div className='InternshipTableSymbol'><img src={Chart} alt="Chart" /></div>
+                    <div className='InternshipTableSymbol'><img src={Profile} alt="Profile" /></div>
+                    <div className='InternshipTableSymbol'><img src={More} alt="More" /></div>
                 </div>
             </div>
-            <div className='SymbolsRow'>
-                <div className='SymbolsBox'>
-                <div className='Symbol'><img src={Chart} alt="Chart" /></div>
-                <div className='Symbol'><img src={Profile} alt="Profile" /></div>
-                <div className='Symbol'><img src={More} alt="More" /></div>
+            <div className='InternshipTableSymbolsRow'>
+                <div className='InternshipTableSymbolsBox'>
+                    <div className='InternshipTableSymbol'><img src={Chart} alt="Chart" /></div>
+                    <div className='InternshipTableSymbol'><img src={Profile} alt="Profile" /></div>
+                    <div className='InternshipTableSymbol'><img src={More} alt="More" /></div>
                 </div>
             </div>
-            <div className='SymbolsRow'>
-                <div className='SymbolsBox'>
-                <div className='Symbol'><img src={Chart} alt="Chart" /></div>
-                <div className='Symbol'><img src={Profile} alt="Profile" /></div>
-                <div className='Symbol'><img src={More} alt="More" /></div>
+            <div className='InternshipTableSymbolsRow'>
+                <div className='InternshipTableSymbolsBox'>
+                    <div className='InternshipTableSymbol'><img src={Chart} alt="Chart" /></div>
+                    <div className='InternshipTableSymbol'><img src={Profile} alt="Profile" /></div>
+                    <div className='InternshipTableSymbol'><img src={More} alt="More" /></div>
                 </div>
             </div>
-            <div className='SymbolsRow'>
-                <div className='SymbolsBox'>
-                <div className='Symbol'><img src={Chart} alt="Chart" /></div>
-                <div className='Symbol'><img src={Profile} alt="Profile" /></div>
-                <div className='Symbol'><img src={More} alt="More" /></div>
+            <div className='InternshipTableSymbolsRow'>
+                <div className='InternshipTableSymbolsBox'>
+                    <div className='InternshipTableSymbol'><img src={Chart} alt="Chart" /></div>
+                    <div className='InternshipTableSymbol'><img src={Profile} alt="Profile" /></div>
+                    <div className='InternshipTableSymbol'><img src={More} alt="More" /></div>
                 </div>
             </div>
         </div>

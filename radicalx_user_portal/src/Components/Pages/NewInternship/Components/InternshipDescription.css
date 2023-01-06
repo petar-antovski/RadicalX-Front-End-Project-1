@@ -45,7 +45,7 @@ h1 {
   gap: 10px;
 
   position: relative;
-  width: 1197px;
+  width: 1060px;
   height: 635px;
 
   /* Base/White */
@@ -55,8 +55,7 @@ h1 {
 label {
   height: 18px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 24px;
   line-height: 18px;
@@ -83,7 +82,7 @@ label {
   gap: 24px;
 
   position: relative;
-  width: 1150px;
+  width: 1012px;
   height: 150px;
 
   /* Base/White */
@@ -98,7 +97,7 @@ label {
   padding: 0px;
   gap: 5px;
 
-  width: 741px;
+  width: 1012px;
   height: 110px;
 
 
@@ -153,8 +152,7 @@ label {
 .CategorySelectionText {
   height: 22px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -192,7 +190,7 @@ label {
   gap: 24px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 240px;
 
   /* Base/White */
@@ -207,7 +205,7 @@ label {
   padding: 10px 16px;
   gap: 8px;
 
-  width: 1150px;
+  width: 1012px;
   height: 197px;
 
   background: #F1F4F8;
@@ -217,8 +215,7 @@ label {
   border-radius: 16px;
 
   /*Text styling*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -247,7 +244,7 @@ label {
   gap: 24px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 90px;
 
   /* Base/White */
@@ -263,7 +260,7 @@ label {
   gap: 24px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 240px;
 
   /* Base/White */
@@ -278,7 +275,7 @@ label {
   padding: 10px 16px;
   gap: 8px;
 
-  width: 1150px;
+  width: 1012px;
   height: 197px;
 
   background: #F1F4F8;
@@ -288,8 +285,7 @@ label {
   border-radius: 16px;
 
   /*Text styling*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -319,7 +315,7 @@ label {
   gap: 7px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 168px;
 
   /* Base/White */
@@ -336,15 +332,14 @@ label {
   padding: 24px 20px;
   gap: 8px;
 
-  width: 1110px;
+  width: 970px;
   height: 20px;
 
   border: 1px dashed #B2B6BC;
   border-radius: 8px;
 
   /*Text styles*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -382,8 +377,7 @@ label {
   border-radius: 12px;
 
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -410,7 +404,7 @@ label {
   isolation: isolate;
   
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 260px;
   
   /* Base/White */
@@ -463,7 +457,7 @@ label {
   padding-left: 0px;
   gap: 24px;
   
-  width: 1150px;
+  width: 1012px;
   height: 48px;
   
   /* Inside auto layout */
@@ -484,7 +478,7 @@ label {
   padding: 12px 12px 12px 16px;
   gap: 10px;
   
-  width: 500px;
+  width: 484px;
   height: 48px;
 
   /* Snow */
@@ -495,8 +489,7 @@ label {
   border-radius: 12px;
   
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -532,7 +525,7 @@ label {
   padding: 12px 12px 12px 16px;
   gap: 10px;
   
-  width: 500px;
+  width: 484px;
   height: 48px;
   
   /* Snow */
@@ -543,8 +536,7 @@ label {
   border-radius: 12px;
   
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -580,7 +572,7 @@ label {
   padding: 12px 12px 12px 16px;
   gap: 10px;
   
-  width: 1150px;
+  width: 1012px;
   height: 48px;
   
   /* Snow */
@@ -591,8 +583,7 @@ label {
   border-radius: 12px;
   
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -629,7 +620,7 @@ label {
   gap: 24px;
 
   position: relative;
-  width: 1150px;
+  width: 1012px;
   height: 150px;
 
   /* Base/White */
@@ -644,7 +635,7 @@ label {
   padding: 0px;
   gap: 5px;
 
-  width: 741px;
+  width: 1012px;
   height: 110px;
 
 
@@ -699,8 +690,7 @@ label {
 .RecommendedRolesSelectionText {
   height: 22px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -737,7 +727,7 @@ label {
   gap: 24px;
 
   position: absolute;
-  width: 1150px;
+  width: 1012px;
   height: 140px;
 
   /* Base/White */
@@ -752,7 +742,7 @@ label {
   padding: 0px;
   gap: 16px;
 
-  width: 1100px;
+  width: 1012px;
   height: 102px;
 
 
@@ -772,7 +762,7 @@ label {
   padding: 10px 16px;
   gap: 8px;
   
-  width: 741px;
+  width: 1012px;
   height: 48px;
   
   background: #F1F4F8;
@@ -782,8 +772,7 @@ label {
   border-radius: 16px;
   
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -831,8 +820,7 @@ label {
   border-radius: 12px;
   
   /*Text style*/
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;

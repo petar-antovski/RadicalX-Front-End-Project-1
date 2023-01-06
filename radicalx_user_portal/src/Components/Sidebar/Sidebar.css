@@ -1,6 +1,5 @@
 * {
-    font-family: 'Space Grotesk';
-    font-style: normal;
+      font-style: normal;
   }
 
 .Sidebar {
@@ -13,6 +12,8 @@
 
     width: 229px;
     height: 848px;
+    margin-top: 16px;
+    margin-left: 16px;
     left: 16px;
     top: 16px;
 
@@ -100,8 +101,7 @@
     width: 86px;
     height: 24px;
     
-    font-family: 'Space Grotesk';
-    font-style: normal;
+      font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -217,8 +217,7 @@
     width: 92px;
     height: 24px;
 
-    font-family: 'Space Grotesk';
-    font-style: normal;
+      font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

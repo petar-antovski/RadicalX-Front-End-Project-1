@@ -48,8 +48,7 @@
 .StatusBarItemActive .StatusBarItemtext {
   height: 24px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -101,8 +100,7 @@
 .StatusBarItemInnactive .StatusBarItemtext {
   height: 24px;
 
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -114,6 +112,57 @@
   font-feature-settings: 'liga' off;
 
   color: #1E1E1E;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.StatusBarItemComplete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  height: 24px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.StatusBarItemComplete .StatusBarItemicon {
+  width: 24px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.StatusBarItemComplete .StatusBarItemtext {
+  height: 24px;
+
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* Purple */
+  color: #793EF5;
 
 
   /* Inside auto layout */

@@ -1,4 +1,4 @@
-.Fields {
+.InternshipDescriptionFields {
   /* Auto layout */
   display: flex;
   flex-direction: column;
@@ -8,11 +8,11 @@
   gap: 14px;
 
   position: relative;
-  width: 654px;
+  width: 790px;
   height: 696px;
 }
 
-.FieldsRow {
+.InternshipDescriptionFieldsRow {
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -20,7 +20,7 @@
   padding: 0px;
   gap: 24px;
 
-  width: 654px;
+  width: 790px;
   height: 64px;
 
 
@@ -31,7 +31,7 @@
   z-index: 8;
 }
 
-.Fieldsicon {
+.InternshipDescriptionFieldsicon {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -48,7 +48,7 @@
   flex-grow: 0;
 }
 
-.FieldsRowInnactive {
+.InternshipDescriptionFieldsRowInnactive {
   box-sizing: border-box;
 
   /* Auto layout */
@@ -58,7 +58,7 @@
   padding: 20px;
   gap: 28px;
   
-  width: 606px;
+  width: 742px;
   height: 64px;
   
   /* White */
@@ -74,7 +74,7 @@
   flex-grow: 0;
 }
 
-.FieldsRowInnactive .Fieldstextbox {
+.InternshipDescriptionFieldsRowInnactive .InternshipDescriptionFieldstextbox {
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -92,7 +92,7 @@
   flex-grow: 1;
 }
 
-.FieldsRowActive {
+.InternshipDescriptionFieldsRowActive {
   box-sizing: border-box;
 
   /* Auto layout */
@@ -102,7 +102,7 @@
   padding: 20px;
   gap: 28px;
   
-  width: 606px;
+  width: 742px;
   height: 64px;
   
   /* White */
@@ -121,7 +121,7 @@
   flex-grow: 0;
 }
 
-.FieldsRowActive .Fieldstextbox {
+.InternshipDescriptionFieldsRowActive .InternshipDescriptionFieldstextbox {
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -139,11 +139,10 @@
   flex-grow: 1;
 }
 
-.Fieldstext {
+.InternshipDescriptionFieldstext {
   height: 18px;
   
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
@@ -161,7 +160,7 @@
   flex-grow: 0;
 }
 
-.tick-circle {
+.InternshipDescriptiontick-circle {
   width: 24px;
   height: 24px;
   
@@ -172,7 +171,7 @@
   flex-grow: 0;
 }
 
-.arrow-right {
+.InternshipDescriptionarrow-right {
   width: 24px;
   height: 24px;
   
@@ -184,14 +183,14 @@
   flex-grow: 0;
 }
 
-.AddMoreRow {
+.InternshipDescriptionAddMoreRow {
   /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 
-  width: 606px;
+  width: 740px;
   height: 56px;
 
   /* Purple */
@@ -205,7 +204,7 @@
   z-index: 0;
 }
 
-.AddMoreRowBox {
+.InternshipDescriptionAddMoreRowBox {
   /* Auto layout */
   display: flex;
   flex-direction: row;
@@ -223,7 +222,7 @@
   flex-grow: 0;
 }
 
-.AddMoreRowIcon {
+.InternshipDescriptionAddMoreRowIcon {
   width: 20px;
   height: 20px;
   
@@ -233,12 +232,11 @@
   flex-grow: 0;
 }
 
-.AddMoreRowtext {
+.InternshipDescriptionAddMoreRowtext {
   width: 74px;
   height: 24px;
   
-  font-family: 'Space Grotesk';
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;

@@ -5,7 +5,7 @@ import { useDropzone } from "react-dropzone"
 import document_upload from '../img/document-upload.png'
 import close from '../img/close.png';
 
-export const IntroVideo = (props) => {
+export const IntroVideo = () => {
   const [myFiles, setMyFiles] = useState([])
 
   const onDrop = useCallback(acceptedFiles => {
@@ -29,7 +29,7 @@ export const IntroVideo = (props) => {
     </li>
   ))
 
-  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible} = useContext(NewInternshipContext)
+  const {CategoryVisible, setCategoryVisible, DescriptionVisible, setDescriptionVisible, LocationVisible, setLocationVisible, BenefitsVisible, setBenefitsVisible, IntroVideoVisible, setIntroVideoVisible, MentorDetailsVisible, setMentorDetailsVisible, RecommendedRolesVisible, setRecommendedRolesVisible, WebLinksResourcesVisible, setWebLinksResourcesVisible, OverviewVisible, setOverviewVisible, ScheduleVisible, setScheduleVisible, ResourcesVisible, setResourcesVisible, Survey1Visible, setSurvey1Visible, Survey2Visible, setSurvey2Visible, BasicSettingsVisible, setBasicSettingsVisible, HeroImageVisible, setHeroImageVisible} = useContext(NewInternshipContext)
 
   useEffect(() => {
     myFiles.length > 0 ? setIntroVideoVisible(true) : setIntroVideoVisible(false);
