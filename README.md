@@ -1,4 +1,4 @@
-# RadicalX-User-Portal
+# RadicalX User Portal
 
 ![Home](https://user-images.githubusercontent.com/112181040/211218928-4d40e28b-bcd4-49a4-875e-05be48f11583.png)
 
